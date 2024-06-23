@@ -53,7 +53,7 @@
     
 }
  .header-button:hover{
-    background-color: rgb(175, 16, 103);  
+    background-color: rgb(255, 98, 36);  
  }
 
  
@@ -172,7 +172,7 @@ margin-bottom: 50px;
 /* Bonas-section-start */
 
 
-.gallary{
+/* .gallary{
     max-width: 1480px;
     margin: 100px auto;
     display: flex;
@@ -184,6 +184,109 @@ margin-bottom: 50px;
     margin: 0 auto;
     width: 350px;
     
+} */
+
+.feature-flower-details{
+   
+    text-align: center;
+}
+.feature-flower-details h1{
+
+color: #000;
+font-size: 45px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+
+}
+
+.feature-flower-details p {
+color: rgb(153, 152, 150);
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 20px;
+
+
+}
+
+
+.gallary img{
+    width: 350px;
+    height: 300px;
+    margin: 5px auto;
+}
+
+.gallary{
+
+max-width:1480px;
+display: flex;
+margin: 100px auto;
+flex-wrap: wrap;
+gap: 10px;
+align-items: center;
+justify-content: center;
+
+
 }
 /* Bonas-section-end */
 
+/* hot deals section start */
+
+.hot-deals-section{
+    text-align: center;
+}
+
+.hot-deals-section h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+.hot-deals-section p  {
+    font-size: 18px;
+    color: #a09b9b;
+    margin-top: 30px;
+}
+
+.hot-deals-section-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px; 
+}
+
+
+
+/* hot deals section end */
+
+
+/* Instagram section start */
+
+.Instagram-section h1 {
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.Instagram-section p{
+    font-size: 18px;
+    color: #a09b9b;
+    margin-top: 30px;
+
+}
+
+.Instagram-section{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
+.Instagram-section-image{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+/* Intagram section end */
