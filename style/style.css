@@ -294,7 +294,7 @@ justify-content: center;
 
 /* subscribtion-section-start */
 
-.subscribtion-section{
+/* .subscribtion-section{
     background-image: url('../flower-shop-assignment/Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
     margin-left: 12%;
@@ -331,15 +331,130 @@ justify-content: center;
     padding: 20px 38% 20px 5px;
     margin-left: 20%;
     margin-bottom: 30px;
-    border: none;
+   
+    border: #d72b50;
     
 }
 
-/* input:-moz-broken{
-
-} */
 .subscribtion-section{
    
 }
-.header-button
+.header-button */
 /* subscribtion-section-end */
+
+
+/* get latest deal start */
+.latest-deal {
+    max-width: 1480px;
+    height: 449px;
+    margin: 174px auto;
+    width: 100%;
+    background-image: url("../flower-shop-assignment/Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.latest-deal h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latest-deal p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscribe-action {
+    margin-top: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subscribe-action input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0 10px 0 10px;
+    border: none;
+    margin-right: 16px;
+    border-color: #d72b50;
+    
+}
+
+
+#primary-btn{
+    color: var(--White-Color, #FFF);
+    background-color: rgb(207, 69, 122);
+    padding: 20px 40px 20px 40px;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 44px;
+    
+    
+
+}
+
+#primary-btn:hover{
+    background-color: #d72b50;
+}
+.subscribe-action input:focus {
+    outline-color: #d72b50;
+}
+
+
+/* get latest deal end */
+
+/* footer-section-start */
+
+.footer-section h1{
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: aliceblue;
+ margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.footer-section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    padding: 200px;
+}
+
+.copyright{
+    color: rgb(88, 88, 88);
+    
+}
+
+.content{
+    margin-top: 5px;
+}
+/* footer-section-end */
