@@ -1,0 +1,189 @@
+/* header section start */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+
+.header-sction{
+    padding-left: 100px;
+}
+.header-sction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 240, 243);
+}
+
+.header-content{
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-weight: 700;
+    
+}
+
+.header-drescription{
+    color: var(--Dark-03, #d4d4d4);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 35px;
+    
+   
+}
+
+.content-write{
+    margin-bottom:15px ;
+}
+
+.header-button{
+    color: var(--White-Color, #FFF);
+    background-color: rgb(207, 69, 122);
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-top: 35px;
+    
+}
+ .header-button:hover{
+    background-color: rgb(175, 16, 103);  
+ }
+
+ 
+
+/* header section end */
+
+
+/* Featured section start */
+
+
+.Featured-section{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.Featured-title{
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.Featured-drescription{
+    color:  #c5c4c4;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.Featured-content{
+    margin-bottom: 15px;
+}
+
+/* Featured section end */
+
+
+/* Featured-flower-section-start */
+.Featured-flower-section{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+   gap: 30px;
+   
+}
+
+
+.Pink-Tulip-Flower-Tree{
+    height: 400px;
+background-color: rgb(255, 222, 240);
+padding: 80px 80px 0px 80px;
+border-radius:  50% 50% 0px 0px;
+margin-bottom: 50px;
+
+
+}
+
+.Coronation-Flowers-Tree{
+    height: 400px;
+    background-color: rgb(205, 240, 240);
+    padding: 80px 20px 0px 20px;
+border-radius:  50% 50% 0px 0px;
+margin-bottom: 50px;
+}
+
+.Yellow-Tulip-Flower-Tree{
+    height: 400px;
+    background-color: rgb(78, 216, 184);
+    padding: 80px 80px 0px 80px;
+border-radius:  50% 50% 0px 0px;
+margin-bottom: 50px;
+}
+
+.anchor-tag{
+    color: #181818;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 80px;
+    border-bottom: 2px solid #181818;
+    text-decoration: none;
+     
+}
+/* Featured-flower-section-end */
+
+/* Featured-flower-sell-section-start */
+
+.order-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 250px;
+    background-color: rgb(231, 226, 226);
+    max-width: 70%;
+    margin-left: 230px;
+    padding: 80px 60px 80px 60px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+
+    
+    
+}
+
+.order-section-content{
+    color: rgb(65, 61, 61);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+   
+}
+
+
+/* Featured-flower-sell-section-end */
+
+/* Bonas-section-start */
+
+
+.gallary{
+    max-width: 1480px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallary img{
+    margin: 0 auto;
+    width: 350px;
+    
+}
+/* Bonas-section-end */
+
