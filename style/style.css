@@ -26,7 +26,7 @@
 }
 
 .header-drescription{
-    color: var(--Dark-03, #d4d4d4);
+    color: #a09b9b;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 400;
@@ -290,3 +290,56 @@ justify-content: center;
 }
 
 /* Intagram section end */
+
+
+/* subscribtion-section-start */
+
+.subscribtion-section{
+    background-image: url('../flower-shop-assignment/Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin-left: 12%;
+    height: 800px;
+    max-width: 1480px;
+    align-items: center;
+    
+    
+}
+
+.subscribtion-title h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0px;
+
+}
+
+.subscribtion-title p{
+    font-size: 18px;
+    color: #747171;
+    margin-top: 30px;
+   
+}
+
+.subscribtion-title{
+    text-align: center;
+    margin-top: 10%;
+    padding: 150px 40px 50px 40px;
+
+}
+.email-section input{
+    font-size: 13px;
+    padding: 20px 38% 20px 5px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    border: none;
+    
+}
+
+/* input:-moz-broken{
+
+} */
+.subscribtion-section{
+   
+}
+.header-button
+/* subscribtion-section-end */
